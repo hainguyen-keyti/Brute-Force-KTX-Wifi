@@ -1,0 +1,22 @@
+{
+  "name": "brute-force-ktx-wifi",
+  "version": "1.0.0",
+  "description": "Brute Force password in Ho Chi Minh National University Dormitory network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hainguyen-keyti/Brute-Force-KTX-Wifi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hainguyen-keyti/Brute-Force-KTX-Wifi/issues"
+  },
+  "homepage": "https://github.com/hainguyen-keyti/Brute-Force-KTX-Wifi#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
