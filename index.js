@@ -5,7 +5,7 @@ const convert = require('./octal-converter');
 var username = "p1989681" // change user name here
 
 async function BruteForce() {
-  for (var i = 1005; i <= 1005; i++) { // chang range number here
+  for (var i = 0; i <= 9999; i++) { // chang range number here
     await new Promise(resolve => {
         var p = i;
         p = p.toString();
